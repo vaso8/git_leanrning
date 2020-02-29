@@ -1,4 +1,5 @@
 git init
-git add
+git add . (all) [or file_name(s)]
 git status
 git commit [-m "commit desc"]
+git diff [file_name]
