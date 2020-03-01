@@ -7,8 +7,6 @@ git status
 git commit [-m "commit desc"]
 git diff [file_name]
 
-<<<<<<< HEAD
-=======
 git reset --soft / --hard commit_hash 42345vasdsdfasdfsdfefwefdsfsdfsdf deletes commit
 git commit --amend changes last commit
 git show adfasf344fsfasdfasf4rsfsaf3
@@ -16,4 +14,11 @@ git show adfasf344fsfasdfasf4rsfsaf3
 
 git checkout -b branch_name
 git merge branch_name (from master branch)
->>>>>>> branch_1
+git branch -d branch_name
+
+
+/// aliases
+git config --global alias.s status
+git config --global --unset alias.s
+
+git stash ... commands - place files aside while working on other branch
