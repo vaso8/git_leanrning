@@ -13,3 +13,4 @@ git show adfasf344fsfasdfasf4rsfsaf3
 
 
 git checkout -b branch_name
+git merge branch_name (from master branch)
