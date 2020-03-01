@@ -28,3 +28,8 @@ git config --global --unset alias.s
 */
 git stash ... commands - place files aside while working on other branch (apply, list, pop)
 git stash branch branch_name 
+
+
+// GITHUB
+git push - upload commit to github
+git clone - download project from github
