@@ -14,11 +14,17 @@ git show adfasf344fsfasdfasf4rsfsaf3
 
 git checkout -b branch_name
 git merge branch_name (from master branch)
-git branch -d branch_name
+git branch -d branch_name - delete branch
 
 
 /// aliases
 git config --global alias.s status
 git config --global --unset alias.s
 
-git stash ... commands - place files aside while working on other branch
+// stash away
+/*
+* saves changes memory to work on different branch.
+* also it is possible to atache changes to different branches
+*/
+git stash ... commands - place files aside while working on other branch (apply, list, pop)
+git stash branch branch_name 
