@@ -1,5 +1,15 @@
+git config --global user.name "vaso sulashvili"
+git config --global user.email "v.sulashvili@outlook.com"
+
 git init
 git add . (all) [or file_name(s)]
 git status
 git commit [-m "commit desc"]
 git diff [file_name]
+
+git reset --soft / --hard commit_hash 42345vasdsdfasdfsdfefwefdsfsdfsdf deletes commit
+git commit --amend changes last commit
+git show adfasf344fsfasdfasf4rsfsaf3
+
+
+git checkout -b branch_name
