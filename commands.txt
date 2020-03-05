@@ -11,11 +11,14 @@ git reset --soft / --hard commit_hash 42345vasdsdfasdfsdfefwefdsfsdfsdf deletes 
 git commit --amend changes last commit
 git show adfasf344fsfasdfasf4rsfsaf3
 
-
+=========================== MERGE
 git checkout -b branch_name
 git merge branch_name (from master branch)
 git branch -d branch_name - delete branch
 
+=========================== REBASE
+git rabase master // from other branch_name. take unique commits and ataches them to master branch. 
+git merge branch_name // from master branch.
 
 /// aliases
 git config --global alias.s status
@@ -33,3 +36,8 @@ git stash branch branch_name
 // GITHUB
 git push - upload commit to github
 git clone - download project from github
+
+
+======================= OPTIONS
+--oneline / log
+--graph / log
